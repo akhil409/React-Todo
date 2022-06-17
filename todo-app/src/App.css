@@ -1,0 +1,124 @@
+*{
+  box-sizing: border-box;
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+body{
+  background-color: cadetblue;
+ 
+}
+
+#card1 {
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+#card2{
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+#table1{
+  border: 1px solid red;
+  border-radius: 10px;
+}
+
+nav{
+  display: flex;
+  justify-content: space-around;
+  background-color:black;
+  align-items: center;
+  color: aliceblue;
+  
+}
+
+.img{
+  margin-right: 700px;
+}
+
+li{
+  list-style-type: none;
+  color: white;
+}
+
+.homec{
+  background-color: aqua;
+}
+
+.homeh{
+  background-color: blue;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  margin-top: 60px; 
+  box-shadow: brown;
+  color:aliceblue;
+}
+
+.jumbotron{
+  background-color: rgb(15, 15, 15);
+}
+
+#formwid{
+  width: 500px;
+  
+}
+
+
+/* button{
+  font-weight: 200px;
+} */
+
+/* #hrf{
+  background-color: whitesmoke;
+} */
+
+#password{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  width: 50%;
+  margin-top: 8rem;
+  margin-left: 21.5rem;
+  border-radius: 10px;
+}
+
+.para{
+  float: left;
+}
+
+.pbtn{
+  float: right;
+  justify-content: space-between;
+}
+
+#acctitile{
+  float: left;
+}
+
+#about{
+  border-radius: 10px;
+}
+
+/* useContext Example */
+.context{   
+    height: 12rem;
+    margin-top: 1rem;  
+    text-align: center;
+    background-color: aquamarine;
+    border-radius: 20px;
+}
+
+.context1{   
+  height: 12rem;
+  margin-top: 1rem;  
+  text-align: center;
+  background-color:chartreuse;
+    border-radius: 20px;
+}
